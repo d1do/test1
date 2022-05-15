@@ -7,64 +7,74 @@
     <title>TEST</title>
     <link rel="stylesheet" href="2.css">
 </head>
-
-<div class="div1">
-    <img src="коця.png" alt="коця" class="avatar">
+<div class="container">
+<div class="info">
+    <a href="https://www.youtube.com/watch?v=iik25wqIuFo"><img src="коця.png" alt="коця" class="avatar"></a>
+    <div class="info-text">
     <h1>Микола</h1>
-    <p>Я чорт</p>
+    <p><em>Я чорт<em></p>
     <p>Пройшов dark souls 3</p>
-    <p>Дата народження:</p>
-    <hr>
+    <p class="p1">Дата народження:<p class="spoiler">натисни на фотограіфю</p></p>
 </div>
-
+</div>
+<hr>
+<div class="div1">
     <div class="social">
-    <h2>Мої соціальні мережі</h2>
-        <ul>
+    <h2 class="h2s">Мої соціальні мережі</h2>
+        <ul class="list">
             <li><a href="https://t.me/MukoIa" target="_blank">Telegram</a></li>
             <li><a href="https://www.instagram.com/_mukoia_/" target="_blank">Instagram</a></li>
             <li><a href="https://steamcommunity.com/profiles/76561198322929173/" target="_blank">Steam</a></li>
+            <li><a href="https://github.com/d1do">GitHub</a></li>
         </ul>
     </div>
 
-<div>
+<div class="routine">
     <h2>Розпорядок дня</h2>
-    <ol>
+    <ol class="list">
         <li>Прокинувся</li>
         <li>Поїв</li>
         <li>Посидів в комп'ютері</li>
         <li>Спати</li>
     </ol>
 </div>
-1
-<div>
+
+<div class="music">
     <h2>Любимі пісні</h2>
-    <ul>
+    <ul class="list">
         <li><a href="https://www.youtube.com/watch?v=k1s5PWNqj7Y">Blizzard - Light Club</a></li>
         <li><a href="https://www.youtube.com/watch?v=iqkQRgGdAPo">Secunda - Jeremy Soule</a></li>
         <li><a href="https://www.youtube.com/watch?v=I2rV8oKWSdM">Tell Me Why</a></li>
         <li><a href="https://www.youtube.com/watch?v=36nqGs_Dvws">Queen - Seaside Rendezvous</a></li>
-        <li><a href="https://www.youtube.com/watch?v=1M4ADcMn3dA">Rammstein - Keine Lust</a></li>
     </ul>
 </div>
 
-    <hr>
+</div>
 
+    <hr>
+<div class="contact">
     <h2>Звязок зі мною</h2>
     <form action="">
+        <div class="row">
+        <div class="form-group">
         <label for="name">Ваше ім'я:</label>
         <input type="text" id="name" placeholder="Введіть ваше ім'я">
-        
-        <br>
+    </div>
 
+        <div class="form-group">
         <label for="">Ваш email</label>
         <input type="email"  id="email" placeholder="Введіть ваш email">
+        </div>
+        </div>
 
-        <br>
+        <div class="form-group">   
         <label for="text">Ваше повідомлення</label>
-        <textarea id="text" cols="15" rows="5"></textarea>
-        <input type="submit" value="Звязатись">
+        <textarea  id="text" cols="15" rows="5"></textarea>
+        <input class="btn" type="submit" value="Звязатись">
+        </div>
     </form>
-     
+</div>
+</div>
 
 </body>
 </html>
